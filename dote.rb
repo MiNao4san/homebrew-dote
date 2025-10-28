@@ -10,3 +10,4 @@ class Dote < Formula
     bin.install "dote"
   end
 end
+
