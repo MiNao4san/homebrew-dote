@@ -176,7 +176,7 @@ void dote(int k)
         for (int j = 0; j < 32; j++)
         {
             int x;
-            if (k % 4 == 1)
+            if (k % 3 == 1)
             {
                 x = f[i][j];
             }
@@ -184,7 +184,7 @@ void dote(int k)
             {
                 x = e[i][j];
             }
-            else if (k % 2 == 0)
+            else if (k % 3 == 2)
             {
                 x = g[i][j];
             }
